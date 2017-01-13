@@ -1,0 +1,55 @@
+#Site
+title: Luis Rueda´s Blog
+description: This is userlerueda´s home.
+logo: favicon.png
+url: kongsong.me
+rss_url: /feed.xml
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Social Links
+email:               userlerueda@gmail.com
+google.plus:        userlerueda
+twitter:            userlerueda
+facebook:            userlerueda
+github:              userlerueda
+#stackoverflow:      6438519/song-kong   #from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           userlerueda
+#xing:              username
+instagram:          userlerueda
+#lastfm:            username
+#tumblr:            username
+pinterest:         userlerueda
+foursquare:        userlerueda
+#steam:              username
+#dribbble:          username
+youtube:           userlerueda
+soundcloud:        userlerueda
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile,.sass-cache,.DS_Store,.idea]
